@@ -9,8 +9,9 @@ import java.util.*;
 public class Ahorcado {
 
     public static void main(String[] args) {
-                Scanner leer = new Scanner(System.in);
-        String palabra = "caro";
+        bancoPalabras bancoPalabras = new bancoPalabras();
+        Scanner leer = new Scanner(System.in);
+        String palabra = bancoPalabras.obtenerPalabra();
 
         Queue<Character> letrasDePalabraAdivinar = new LinkedList<>();
         letrasDePalabraAdivinar.add(palabra.charAt(0));
