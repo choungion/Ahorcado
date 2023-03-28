@@ -4,3 +4,4 @@ out/
 nbproject/private/private.properties
 nbproject/private/private.xml
 /build/
+/nbproject/private/
