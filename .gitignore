@@ -2,3 +2,5 @@ Ahorcado.iml
 .idea/
 out/
 nbproject/private/private.properties
+nbproject/private/private.xml
+/build/
