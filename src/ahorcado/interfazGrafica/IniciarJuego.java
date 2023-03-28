@@ -184,19 +184,19 @@ public class IniciarJuego extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Letra equivocada :( \nSe ha cortado una parte del muñeco, sobran "
                     + Ahorcado.partesDeMuneco.size() + " partes", "XD", JOptionPane.ERROR_MESSAGE);
             if (Ahorcado.partesDeMuneco.size() == 4) {
-                dibujo.setIcon(new ImageIcon(getClass().getResource("Imagenes//1.png")));
+                dibujo.setIcon(new ImageIcon(getClass().getResource("Imagenes/1.png")));
             }
             if (Ahorcado.partesDeMuneco.size() == 3) {
-                dibujo.setIcon(new ImageIcon(getClass().getResource("Imagenes//2.png")));
+                dibujo.setIcon(new ImageIcon(getClass().getResource("Imagenes/2.png")));
             }
             if (Ahorcado.partesDeMuneco.size() == 2) {
-                dibujo.setIcon(new ImageIcon(getClass().getResource("Imagenes//3.png")));
+                dibujo.setIcon(new ImageIcon(getClass().getResource("Imagenes/3.png")));
             }
             if (Ahorcado.partesDeMuneco.size() == 1) {
-                dibujo.setIcon(new ImageIcon(getClass().getResource("Imagenes//4.png")));
+                dibujo.setIcon(new ImageIcon(getClass().getResource("Imagenes/4.png")));
             }
             if (Ahorcado.partesDeMuneco.size() == 0) {
-                dibujo.setIcon(new ImageIcon(getClass().getResource("Imagenes//5.png")));
+                dibujo.setIcon(new ImageIcon(getClass().getResource("Imagenes/5.png")));
             }
 
         }
